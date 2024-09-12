@@ -13,7 +13,7 @@ CREATE TABLE TESTSCHEMA.Persons(
      PRIMARY KEY (name, surname, age)
     );
 ```
-### 
+### Добавление в таблицу и пробное удаление 
 ```sql
 INSERT INTO TESTSCHEMA.Persons (name,surname, age, phone_number , city_of_living)
 VALUES ('Иван', 'Иванов', 18, '+79998886655', 'Москва'),
